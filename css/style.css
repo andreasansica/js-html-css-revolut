@@ -14,8 +14,13 @@
   display: none;
   position: absolute;
   text-align: left;
-  right: 5px;
+  right: -8px;
+  margin-top: 20px;
+  background-color: white;
+  max-height: 500px;
+  max-width: 200px;
 }
+
 
 .dblock{
   display: block;
@@ -28,8 +33,65 @@
  a{
   text-decoration: none;
   color: grey;
+  font-size: 18px;
+  font-weight: 400;
   transition: all;
 }
 a:hover{
   color: black;
+}
+
+.menu button {
+  background-color: black;
+  color: white;
+  width: 140px;
+  height: 50px;
+  border-radius: 15px;
+  transition: all;
+}
+.menu button a {
+  color: white;
+}
+
+.menu button:hover{
+  opacity: 0.7;
+}
+
+.menu_left img{
+  height: 80px;
+  width: 100px;
+  vertical-align: middle;
+}
+.menu_right{
+  display: flex;
+  align-items: center;
+}
+
+ #personale{
+  color: black;
+}
+
+.intro{
+  display: flex;
+  padding: 20px;
+}
+.intro-left{
+  width: 40%;
+}
+.intro-right{
+  width: 50%;
+  margin-left: 10%;
+}
+.intro h1{
+  font-size: 80px;
+  font-weight: 900;
+}
+.intro p{
+  font-size: 20px;
+  color: grey;
+}
+
+.intro img{
+  height: 500px;
+  width: 400px;
 }
