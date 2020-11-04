@@ -70,6 +70,60 @@ a:hover{
  #personale{
   color: black;
 }
+.menu_right_open{
+  display:inline-block;
+}
+
+/* hamburger menu */
+.hamburger{
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .menu_right{
+     position: absolute;
+     top: 0;
+     right: -100%;
+     display: flex;
+   }
+  .menu_right_open{
+    right: 100px;;
+    top: 150px;
+    display: flex;
+  }
+  .menu_right_open a{
+  flex-direction: column;
+  align-items: flex-end;
+  }
+
+  .hamburger{
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:100px;
+    right: 100px;}
+
+    .hamburger span{
+      background-color: black;
+      height: 5px;
+      width: 100%;
+      display: block;
+      margin-top: 4px;
+      margin-bottom: 7px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
 
 .intro{
   display: flex;
